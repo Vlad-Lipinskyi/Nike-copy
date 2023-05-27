@@ -1,3 +1,27 @@
+.container {
+    outline: solid red;
+    width: 1137px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    background-color: #012D63;
+    padding-top: 30px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-nike {
+    width: 100px;
+    height: 60px;
+}
+
 .header-link {
     font-family: 'Roboto';
     font-weight: 300;
@@ -6,6 +30,18 @@
 
     color: #C7C7C7;
 
+}
+
+.header-pages {
+    display: flex;
+    gap: 29px;
+    margin-left: 152px;
+}
+
+.header-list {
+    display: flex;
+    gap: 12px;
+    margin-left: auto;
 }
 
 .header-item {
