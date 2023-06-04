@@ -6,7 +6,7 @@
     margin-left: auto;
     margin-right: auto;
 }
-
+ /* header */
 .header {
     background-color: #012D63;
     padding-top: 30px;
@@ -53,7 +53,7 @@
     color: #DCDCDC;
 
 }
-
+/* hero */
 .hero{
     background-image: url(../images/hero-bg.jpg);
     padding-bottom: 286px;
@@ -111,13 +111,44 @@
     width: 160px;
     height: 120px;
 }
+/* proses */
+
+.proses-section{
+    background-image: url(../images/proses-bg.jpg);
+    padding-top: 55px;
+    padding-bottom: 80px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.proses-list {
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+}
+
+.proses-box {
+    display: flex;
+    align-items: center;
+}
+
+.proses-item {
+    height: 470px;
+    background-image: url(../images/proses-line.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 300px;
+}
 
 .proses-text {
     font-family: 'Salsa';
     font-weight: 400;
     font-size: 170px;
-    line-height: 1.69;
+    /* line-height: 1.69; */
+
     color: #FFFFFF;
+
+
 }
 
 
@@ -126,21 +157,27 @@
     font-weight: 400;
     font-size: 36px;
     line-height: 1.33;
-
-
+    color: #FFFFFF;
+    margin-left: 5px;
 }
 
-.proses-list{
+
+
+/* boots */
+
+.boots {
+    background-image: url(../images/boots-bg.jpg);
+    padding-top: 42px;
+    padding-bottom: 97px;
+}
+
+.boots-box {
     display: flex;
-    gap: 90px
 }
 
-.proses-item{
-    height: 470px;
-}
-
-.proses-box{
-    display: flex;
+.boots-img {
+    width: 835px;
+height: 400px;
 }
 
 .boots-title {
@@ -150,8 +187,19 @@
     line-height: 1.35;
 
     color: #FFFFFF;
-
+    margin-left: auto;
 }
+
+.boots-list {
+    display: flex;
+    padding: 26px 65px;
+    background: linear-gradient(91.33deg, #8E32C6 15.44%, #D600C0 69.67%);
+border-radius: 15px;
+width: 715px;
+height: 85px;
+justify-content: space-between;
+}
+
 
 .boots-text {
     font-family: 'Roboto';
@@ -160,6 +208,46 @@
     line-height: 1.18;
 
     color: #FFFFFF;
+}
+
+.boots-content {
+    padding-left: 55px;
+    padding-top: 38px;
+}
+
+/* reviews */
+
+.reviews {
+    background-image: url(../images/reviews-bc.jpg);
+    padding-top: 35px;
+    padding-bottom: 88px;
+}
+
+.reviews-list {
+    display: flex;
+    margin-top: 42px;
+    gap: 93px;
+    justify-content: center;
+}
+
+.reviews-item {
+    padding: 49px 14px 29px 13px;
+    width: 255px;
+}
+
+.reviews-item:nth-child(1) {
+    background: linear-gradient(136.55deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
+border-radius: 15px;
+}
+
+.reviews-item:nth-child(2) {
+    background: linear-gradient(136.55deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%);
+border-radius: 15px;
+}
+
+.reviews-item:nth-child(3) {
+    background: linear-gradient(142.67deg, #FFE128 0%, #FF9B5C 30.21%, #FF8381 63.29%, #FF5489 100%);
+border-radius: 15px;
 }
 
 .reviews-title {
@@ -181,6 +269,12 @@
 
     color: #FFFFFF;
 
+
+}
+
+.reviews-photo {
+    width: 31px;
+    height: 31px;
 }
 
 .reviews-time {
@@ -191,6 +285,9 @@
 
     color: #D8D8D8;
 
+    display: block;
+    margin-top: 8px;
+    margin-bottom: 47px;
 }
 
 .reviews-name {
