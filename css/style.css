@@ -117,10 +117,7 @@
     font-weight: 400;
     font-size: 170px;
     line-height: 1.69;
-
     color: #FFFFFF;
-
-
 }
 
 
@@ -131,6 +128,19 @@
     line-height: 1.33;
 
 
+}
+
+.proses-list{
+    display: flex;
+    gap: 90px
+}
+
+.proses-item{
+    height: 470px;
+}
+
+.proses-box{
+    display: flex;
 }
 
 .boots-title {
